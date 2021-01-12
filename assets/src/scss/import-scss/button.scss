@@ -1,0 +1,20 @@
+.advBtn {
+  background-color: $white;
+  font-size: 14px;
+  color: $black;
+  font-family: Oswald;
+
+}
+
+.btnReq {
+  max-width: 175px;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  padding: 14px 0;
+
+  @media (max-width: 760px) {
+    max-width: none;
+  }
+}
